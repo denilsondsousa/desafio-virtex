@@ -44,7 +44,7 @@ export default function Home() {
       if (res.status == 200) {
         setIsUpData(true);
         toast.info('Dados upados');
-        setCurrentPage(0);
+        toast.info('Atualize a página!');
       } else if (res.status == 202) {
         toast.warn('Os dados já estão no Banco de Dados!');
         setIsUpData(true);
