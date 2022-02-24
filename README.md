@@ -71,7 +71,7 @@ docker-compose up
   $ yarn # ou npm install
 
   # Lembre-se: É necessário subir na primeira vez de uso a infraestrutura e modelagem do Banco de dados, para isso execute:
-  $ yarn typeorm migrations:run #ou npm typeorm migrations:run
+  $ yarn typeorm migration:run #ou npm typeorm migrations:run
 
   #Com dependencias instaladas e banco de dados criado, basta iniciliazar a aplicação!
 
@@ -94,7 +94,6 @@ docker-compose up
   # Inicializando a aplicação:
   $ yarn dev # ou npm dev 
 
-  #Deixe o server em execução
 ```
 
 ## :page_facing_up: Uso
