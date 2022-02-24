@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  mysql-db:
+    image: mysql
+    hostname: localhost
+    container_name: mysql_container
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: desafio_virtex
+      MYSQL_DATABASE: db_desafio_virtex
+    ports:
+      - "3306:3306"
+    cap_add:
+      - SYS_NICE

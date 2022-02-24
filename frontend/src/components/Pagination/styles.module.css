@@ -1,0 +1,33 @@
+.pagination {
+  width: 67.5rem;
+  height: 100px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 3rem;
+}
+
+.pagination button {
+  width: 2rem;
+  height: 2rem;
+
+  background: var(--gray-100);
+  color: var(--red);
+
+  border-radius: 0.225rem;
+}
+
+.pagination button:focus {
+  background: var(--gray-100);
+  color: var(--red);
+
+  background: var(--red);
+  color: var(--white);
+
+  font-weight: 600;
+}
